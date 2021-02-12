@@ -3,7 +3,7 @@ import styled from 'styled-components'
 export const Body = styled.div`
 
 @import url("https://fonts.googleapis.com/css?family=Source+Sans+Pro");
-
+font-family:Arial, Helvetica, sans-serif;
 * {
   box-sizing: border-box;
   margin: 0;
@@ -17,6 +17,7 @@ body {
   font-family: "Source Sans Pro";
   text-rendering: optimizelegibility;
   -webkit-font-smoothing: antialiased;
+  font-family:Arial, Helvetica, sans-serif;
 }
 
 header {
@@ -33,7 +34,11 @@ header .container {
 }
 
 header img {
-  width: 150px;
+  top: 50%;
+  left: 50%;
+  size:100px;
+
+  width: 200px;
   margin-left: 20px;
   padding: 15px 0;
 }
@@ -49,14 +54,23 @@ header nav ul li {
 header nav ul li a {
   text-decoration: none;
   color: white;
-  text-transform: uppercase;
+  //text-transform: uppercase;
   font-size: 14px;
   padding: 24px;
   transition: all 250ms linear 0s;
 }
 
 header nav ul li a:hover {
-  background: rgba(255,255,255, 0.15)
+  background: opaci rgba(255,255,255, 0.15)
+  
+}
+ p{
+  color:#000;
+  font-family:Arial, Helvetica, sans-serif;
+}
+h1{
+  color:#fff;
+  text-align:center;
 }
 
 h2 {
@@ -70,6 +84,8 @@ h3 {
   font-size: 28px;
   line-height: 38px;
 }
+
+
 
 .button {
   display: inline-block;
@@ -104,8 +120,10 @@ section.hero .container {
 }
 
 section.hero p {
-  color: rgb(154, 142, 191);
+  //color: rgb(154, 142, 191);
+  color: #000;
   font-size: 18px;
+  font-family:Arial, Helvetica, sans-serif;
   line-height: 32px;
   margin: 10px 0px 0px;
 }
@@ -146,6 +164,11 @@ CARDS
 
 }
 
+#linkCard{
+  text-decoration:none;
+
+}
+
 .card:hover {
   transform: translateY(-7px);
 }
@@ -153,7 +176,8 @@ CARDS
 .image {
   width: 100%;
   padding-top: 56.25%; /* 16:9 */
-
+  background-color: rgb(248,245,252);
+ // background-color: #fff;
   overflow: hidden;
   position: relative;
 }
@@ -162,6 +186,8 @@ CARDS
   width: 50%;
   size: 90px;
   position: absolute;
+  background-color: rgb(248,245,252);
+// background-color: #fff;
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
