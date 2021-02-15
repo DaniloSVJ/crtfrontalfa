@@ -10,7 +10,6 @@ const Routes: React.FC = () => (
         <Route path="/" exact component={DashBoard} />
         <Route path="/cadastro" exact component={Cadastrosss} />
 
-
     </BrowserRouter>
 );
 
