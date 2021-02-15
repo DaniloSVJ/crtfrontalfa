@@ -27,25 +27,25 @@ const DashBoard: React.FC = () => {
             p: "Fazer Vendas"
         },
         {
-            href: "/clientes",
+            href: "/cadastro",
             src: imgCliente,
             altimg: "Clientes",
             p: "Clientes Cadastrados"
         },
         {
-            href: "/produto",
+            href: "/cadastro",
             src: imgProduto,
             altimg: "Produtos",
             p: "Produtos Cadastrados"
         },
         {
-            href: "/estoque",
+            href: "/cadastro",
             src: imgEstoque,
             altimg: "Estoque",
             p: "Gerencia de Estoque"
         },
         {
-            href: "/relatorio",
+            href: "/cadastro",
             src: imgRelatorio,
             altimg: "relatorio",
             p: "Diversos Relatórios"
@@ -71,19 +71,19 @@ const DashBoard: React.FC = () => {
                         <nav>
                             <ul>
                                 <li>
-                                    <a href="#">Home</a>
+                                    <a href="/cadastro">Home</a>
                                 </li>
                                 <li>
-                                    <a href="#">Suporte</a>
+                                    <a href="/cadastro">Suporte</a>
                                 </li>
                                 <li>
-                                    <a href="#">Financeiro</a>
+                                    <a href="/cadastro">Financeiro</a>
                                 </li>
                                 <li>
-                                    <a href="#">Comercial</a>
+                                    <a href="/cadastro">Comercial</a>
                                 </li>
                                 <li>
-                                    <a href="#">Minha Conta</a>
+                                    <a href="/cadastro">Minha Conta</a>
                                 </li>
                             </ul>
                         </nav>
